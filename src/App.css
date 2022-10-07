@@ -1,0 +1,30 @@
+.container {
+    margin: auto;
+    margin-top: 2em;
+    width: 90%;
+}
+
+* {
+    transition: background-color 0.5s;
+}
+
+.switch {
+    cursor: pointer;
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.switch:hover {
+    background-color: rgb(183, 183, 183);
+}
+
+.dark {
+    background-color: rgb(38, 38, 38);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
